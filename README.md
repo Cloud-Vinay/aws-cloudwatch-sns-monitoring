@@ -1,12 +1,12 @@
-AWS CloudWatch Monitoring & SNS Alerting Project
+**AWS CloudWatch Monitoring & SNS Alerting Project**
 
-Project Overview
+**Project Overview**
 
 This project demonstrates monitoring and alerting using Amazon CloudWatch and Amazon SNS.
 
 When CPU utilization exceeds the configured threshold, CloudWatch triggers an alarm and Amazon SNS sends an email notification to the administrator.
 
-Architecture
+**Architecture**
 
 EC2 Instance
 
@@ -26,7 +26,7 @@ SNS Topic
 
 Email Notification
 
-AWS Services Used
+**AWS Services Used**
 
 - Amazon EC2
 - Amazon CloudWatch
@@ -34,63 +34,63 @@ AWS Services Used
 - Ubuntu Linux
 - Apache Web Server
 
-Implementation Steps
+**Implementation Steps**
 
-EC2 Setup
+**EC2 Setup**
 
 - Launched Ubuntu EC2 Instance
 - Installed Apache Web Server
 - Hosted Monitoring Web Page
 
-SNS Configuration
+**SNS Configuration**
 
 - Created SNS Topic
 - Created Email Subscription
 - Confirmed Subscription Successfully
 
-CloudWatch Alarm Setup
+**CloudWatch Alarm Setup**
 
 - Selected CPUUtilization Metric
 - Created CloudWatch Alarm
 - Connected Alarm with SNS Topic
 
-Alert Testing
+**Alert Testing**
 
 - Generated CPU Load Using Stress Tool
 - Triggered CloudWatch Alarm
 - Received Email Alert Successfully
 
-Screenshots
+**Screenshots**
 
-EC2 Instance Running
+**EC2 Instance Running**
 
 ![EC2](ec2-running.png)
 
-Monitoring Web Page
+**Monitoring Web Page**
 
-"Web" (./web-page.png)
+![Web](web-page.png)
 
-SNS Topic Created
+**SNS Topic Created**
 
-"SNS" (./sns-topic.png)
+![SNS](sns-topic.png)
 
-Email Subscription Confirmed
+**Email Subscription Confirmed**
 
-"Subscription" (./email-subscription-confirmed.png)
+![Subscription](email-subscription-confirmed.png)
 
-CloudWatch Alarm Created
+**CloudWatch Alarm Created**
 
-"Alarm" (./cloudwatch-alarm-created.png)
+![Alarm](cloudwatch-alarm-created.png)
 
-CPU Stress Test
+**CPU Stress Test**
 
-"Stress" (./cpu-stress-test.png)
+![Stress](cpu-stress-test.png)
 
-Email Alert Received
+**Email Alert Received**
 
-"Email Alert" (./email-alert-received.png)
+![Email Alert] (email-alert-received.png)
 
-Skills Demonstrated
+**Skills Demonstrated**
 
 - Amazon EC2 Administration
 - Amazon CloudWatch Monitoring
@@ -101,6 +101,6 @@ Skills Demonstrated
 - AWS Operations
 - Troubleshooting
 
-Project Outcome
+**Project Outcome**
 
 Successfully implemented a monitoring and alerting solution using Amazon CloudWatch and Amazon SNS. The system automatically detects high CPU utilization and sends email notifications to administrators. notifications to administrators.
