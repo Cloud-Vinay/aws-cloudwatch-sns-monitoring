@@ -65,31 +65,31 @@ Email Notification
 
 **EC2 Instance Running**
 
-[EC2] (ec2-running.png)
+![EC2] (ec2-running.png)
 
 **Monitoring Web Page**
 
-[Web] (web-page.png)
+![Web] (web-page.png)
 
 **SNS Topic Created**
 
-[SNS] (sns-topic.png)
+![SNS] (sns-topic.png)
 
 **Email Subscription Confirmed**
 
-"Subscription" (email-subscription-confirmed.png)
+![Subscription] (email-subscription-confirmed.png)
 
 **CloudWatch Alarm Created**
 
-[Alarm] (cloudwatch-alarm-created.png)
+![Alarm] (cloudwatch-alarm-created.png)
 
 **CPU Stress Test**
 
-[Stress] (cpu-stress-test.png)
+![Stress] (cpu-stress-test.png)
 
 **Email Alert Received**
 
-[Email Alert] (email-alert-received.png)
+![Email Alert] (email-alert-received.png)
 
 **Skills Demonstrated**
 
