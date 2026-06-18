@@ -65,7 +65,7 @@ Email Notification
 
 **EC2 Instance Running**
 
-![EC2] (ec2-running.png)
+![EC2] (./ec2-running.png)
 
 **Monitoring Web Page**
 
