@@ -88,7 +88,7 @@ Email Notification
 
 **Email Alert Received**
 
-![Email Alert] (email-alert-received.png)
+![Email Alert](email-alert-received.png)
 
 **Skills Demonstrated**
 
